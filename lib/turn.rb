@@ -30,5 +30,3 @@ def move(board,index, position = "X")
   new_index = input_to_index(index)
   board[new_index]
 end
-
-move(board) = ["O", " ", " ", " ", " ", " ", " ", " ", "X"]
